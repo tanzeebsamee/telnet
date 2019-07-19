@@ -2,5 +2,5 @@
 - hosts: all
   sudo: yes
   tasks:
-    - name: install apache2
-      yum: name=httpd update_cache=yes state=latest
+    - name: web server off 
+      yum: name=httpd state=stopped
