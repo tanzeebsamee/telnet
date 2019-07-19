@@ -3,4 +3,4 @@
   sudo: yes
   tasks:
     - name: web server off 
-      yum: name=httpd state=stopped
+      service: name=httpd state=stopped
