@@ -1,6 +1,0 @@
----
-- hosts: all
-  sudo: yes
-  tasks:
-    - name: web server off 
-      service: name=httpd state=stopped

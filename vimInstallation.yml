@@ -1,0 +1,6 @@
+---
+- hosts: all
+  sudo: yes
+  tasks:
+    - name: Installing VIM
+      yum: name=vim state=latest
